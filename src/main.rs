@@ -28,7 +28,7 @@ const SKY: Color = Color::new(0.55, 0.74, 0.94, 1.0);
 
 fn window_conf() -> Conf {
     Conf {
-        window_title: "Rustblox".to_owned(),
+        window_title: format!("Rustblox {}", env!("CARGO_PKG_VERSION")),
         window_width: 1280,
         window_height: 720,
         high_dpi: true,

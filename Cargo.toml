@@ -1,8 +1,8 @@
 [package]
 name = "rustblox"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-description = "Rustblox - offline 3D sandbox with accounts, built in Rust"
+description = "Voxel sandbox in Rust + macroquad: procedural worlds, Creative/Survival, crafting and ores"
 
 [dependencies]
 macroquad = "0.4"

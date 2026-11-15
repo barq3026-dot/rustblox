@@ -412,6 +412,15 @@ impl Menu {
             }
         }
         draw_footer("Arrows + Enter, or mouse", sw, sh);
+        let ver = format!("v{}", env!("CARGO_PKG_VERSION"));
+        let m = measure_text(&ver, None, 16, 1.0);
+        draw_text(
+            &ver,
+            sw - m.width - 16.0,
+            sh - 14.0,
+            16.0,
+            Color::new(1.0, 1.0, 1.0, 0.45),
+        );
         Action::None
     }
 
