@@ -1,0 +1,12 @@
+# Build output
+/target/
+
+# Saved worlds (generated while playing)
+/worlds/
+*.rbw
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
