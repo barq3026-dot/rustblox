@@ -14,6 +14,10 @@ assets.
 
 <img src="screenshots/overview.png" alt="World overview" width="49%"> <img src="screenshots/lake.png" alt="Lake" width="49%">
 
+<img src="screenshots/recipe-book.png" alt="Recipe book" width="49%"> <img src="screenshots/glass.png" alt="Glass panes" width="49%">
+
+*Procedural worlds, a recipe book that fills the craft grid, and clear glass panes.*
+
 ## Download
 
 Grab the latest Windows build from
